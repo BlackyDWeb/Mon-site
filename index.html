@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="/images/logo.ico.jfif">
+  <title>Inscription | Dim's & Compagnie</title>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+<body>
+      <header>
+        <nav class="navbar navbar-brand navbar-light navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a href="#" class="navbar-brand fw-bold"> <img src="/images/7fede743-e9f0-4864-a97a-1eacc8c89854.jfif" alt="" class="rounded-1" style="width: 50px;">Dim's & compagnie </a>
+            </div>
+         </nav>        
+      </header>
+
+      <div class="container shadow-lg rounded-4 mt-3" style="width: 400px;">
+        <form action="">
+            <div class="text-center mb-3">
+          <i class="fa-solid fa-user-plus fa-3x text-primary mb-3"></i>
+          <div class="register-header">Créer un compte</div>
+        </div>
+
+            <div class="">
+                <label for="name" class="form-label"><i class="fa-solid fa-user"></i>Nom</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mt-2">
+                <label for="text" class="form-label"><i class="fa-solid fa-user-pen"></i>Prénom</label>
+                <input type="text" class="form-control" required>
+            </div>
+
+            <div class="mt-2">
+                <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i>Email</label>
+                <input type="email" class="form-control" required>
+
+            </div>     
+            
+            <div class="mt-2">
+                <label for="password" class="form-label" ><i class="fa-solid fa-lock"></i>Mot de passe</label>
+                <input type="password" name="" id="pwd" class="form-control">
+                <input type="checkbox" onclick="pwd.type = this.checked ? 'text':'password' ">
+            </div>
+
+            <div class="mt-3 d-flex">
+                <input type="checkbox" class="form-check-input">
+                <label for="" class="form-label">Je suis d'accord avec la politique de confidentialité</label>
+            </div>
+
+            <div class="mt-2 m text-center">
+                <a href="accueil.html" class="btn btn-primary w-75"> <i class="fa-solid fa-user-plus"></i>S'inscrire</a>
+                </div>
+
+            <div class="text-center mt-3">
+
+                <small>
+               Avez vous deja un compte? <a href="sign.html" class="text-decoration-none">Se connecter</a>
+
+                </small>
+            </div>
+        </form>
+      </div>
+</body>
+</html>
